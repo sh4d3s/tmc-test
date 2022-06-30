@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: overwrite-test-default
-  namespace: default
-data:
-  text: overwritten

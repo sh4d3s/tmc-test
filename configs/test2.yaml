@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: overwrite-test-system
-  namespace: kube-system
-data:
-  text: overwritten2
